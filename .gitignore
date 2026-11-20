@@ -1,0 +1,4 @@
+.venv/
+__pycache__/
+source*.png
+!source-prepped.png
