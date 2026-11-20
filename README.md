@@ -1,18 +1,16 @@
 <div align="center">
 
-<h3>euddys@github ~ $ ./contribuciones.sh</h3>
-
-<img src="./contrib-heatmap.svg" width="860" alt="Mapa de contribuciones de GitHub de Euddys De León"/>
-
-<br><br>
-
-<h3>euddys@github ~ $ whoami</h3>
+<img src="./hero.svg" width="860" alt="Euddys De León · CTO y cofundador de SIRYNIX"/>
 
 <table>
   <tr>
-    <td valign="top"><img src="./avi-ascii.svg" width="370" alt="Retrato ASCII"/></td>
-    <td valign="top"><img src="./info-card.svg" width="490" alt="Euddys De León: CTO y cofundador de SIRYNIX. Stack: Next.js, React, TypeScript, Supabase."/></td>
+    <td valign="top"><img src="./terminal.svg" width="490" alt="Terminal: Euddys De León, CTO y cofundador de SIRYNIX. Proyectos: CrediFlow, Inventario De León, Alert Hub."/></td>
+    <td valign="top"><img src="./orbit.svg" width="370" alt="Stack: Next.js, React, TypeScript, Supabase, PostgreSQL, Tailwind, Vercel, Capacitor, Python"/></td>
   </tr>
 </table>
+
+<img src="./city.svg" width="860" alt="Mis contribuciones del último año como una ciudad de neón"/>
+
+<sub>Arte generado con Python · se reconstruye cada día con GitHub Actions · <a href="https://sirynix.com">sirynix.com</a></sub>
 
 </div>

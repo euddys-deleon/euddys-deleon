@@ -8,7 +8,7 @@ on:
     branches: [main]
     paths-ignore:
       - "data/contributions.json"
-      - "contrib-heatmap.svg"
+      - "city.svg"
 
 permissions:
   contents: write
@@ -30,8 +30,8 @@ jobs:
           cache-dependency-path: scripts/requirements.txt
       - run: pip install -r scripts/requirements.txt
       - run: python scripts/fetch_contributions.py
-      - run: python scripts/render_heatmap_svg.py
+      - run: python scripts/render_city_svg.py
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: actualizar mapa de contribuciones [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg"
+          commit_message: "chore: actualizar skyline de contribuciones [skip ci]"
+          file_pattern: "data/contributions.json city.svg"

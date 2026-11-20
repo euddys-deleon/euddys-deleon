@@ -39,6 +39,8 @@ def fetch(user: str) -> list[dict]:
         d = cell["data-date"]
         level = int(cell.get("data-level", 0))
         count = tips.get(cell.get("id"), 0)
+        if count == 0 and level > 0:  # respaldo si cambia el formato del tooltip
+            count = level
         days.append({"date": d, "level": level, "count": count})
     days.sort(key=lambda x: x["date"])
     if not days:
