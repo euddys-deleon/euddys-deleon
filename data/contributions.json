@@ -2,41 +2,6 @@
  "user": "euddys-deleon",
  "days": [
   {
-   "date": "2025-11-16",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-11-17",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-11-18",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-11-19",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-11-20",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-11-21",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-11-22",
-   "level": 0,
-   "count": 0
-  },
-  {
    "date": "2025-11-23",
    "level": 0,
    "count": 0
@@ -1853,20 +1818,25 @@
   },
   {
    "date": "2026-11-21",
+   "level": 1,
+   "count": 1
+  },
+  {
+   "date": "2026-11-22",
    "level": 0,
    "count": 0
   }
  ],
  "stats": {
-  "total": 7,
+  "total": 8,
   "best_day": {
    "date": "2026-11-20",
    "level": 4,
    "count": 4
   },
-  "longest_streak": 2,
-  "current_streak": 2,
-  "active_days": 3,
+  "longest_streak": 3,
+  "current_streak": 3,
+  "active_days": 4,
   "monthly": {
    "2025-11": 0,
    "2025-12": 0,
@@ -1880,7 +1850,7 @@
    "2026-08": 0,
    "2026-09": 0,
    "2026-10": 0,
-   "2026-11": 6
+   "2026-11": 7
   }
  }
 }
