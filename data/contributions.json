@@ -1823,20 +1823,25 @@
   },
   {
    "date": "2026-11-22",
+   "level": 1,
+   "count": 1
+  },
+  {
+   "date": "2026-11-23",
    "level": 0,
    "count": 0
   }
  ],
  "stats": {
-  "total": 8,
+  "total": 9,
   "best_day": {
    "date": "2026-11-20",
    "level": 4,
    "count": 4
   },
-  "longest_streak": 3,
-  "current_streak": 3,
-  "active_days": 4,
+  "longest_streak": 4,
+  "current_streak": 4,
+  "active_days": 5,
   "monthly": {
    "2025-11": 0,
    "2025-12": 0,
@@ -1850,7 +1855,7 @@
    "2026-08": 0,
    "2026-09": 0,
    "2026-10": 0,
-   "2026-11": 7
+   "2026-11": 8
   }
  }
 }
